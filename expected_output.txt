@@ -1,0 +1,404 @@
+{
+  "M1 governance-capacity boundary (Ch 1)": {
+    "lambda_today": 87.5,
+    "rho_today": 0.972222222222,
+    "n_max_today": 8228.57142857,
+    "backlog_per_hour_doubled": 85.0,
+    "backlog_per_day_doubled": 680.0,
+    "n_max_r3": 19200.0,
+    "reviewers_needed_r3": 16
+  },
+  "M2 intervention margin (Ch 6)": {
+    "tau_constant_days": 17.3333333333,
+    "tau_accelerating_days": 14.5777971058,
+    "budget_points": 13.0,
+    "stable_no_delay": true,
+    "stable_delay_3": false,
+    "stable_delay_3_gentler": true
+  },
+  "M3 dependencies (Appendix F)": {
+    "chain_20_steps_098": 0.667607971755,
+    "two_checks_independent": 0.0025,
+    "two_checks_beta_0.2": 0.0116,
+    "blast_radius_supplier_change": [
+      "agent",
+      "bookings_H1",
+      "bookings_H2",
+      "bookings_H3"
+    ]
+  },
+  "M4 robust compute allocation (Appendix F)": {
+    "cheapest_normal_only": [
+      100.0,
+      [
+        100,
+        0,
+        0
+      ],
+      0.0
+    ],
+    "zero_shortfall_without_conflict_scenario": [
+      230.0,
+      [
+        70,
+        100,
+        0
+      ],
+      0.0
+    ],
+    "zero_shortfall_all_scenarios": [
+      320.0,
+      [
+        70,
+        0,
+        100
+      ],
+      0.0
+    ],
+    "continuous_without_conflict": [
+      226.666666667,
+      [
+        66.6666666667,
+        100.0,
+        0.0
+      ]
+    ],
+    "continuous_all_scenarios": [
+      316.666666667,
+      [
+        66.6666666667,
+        0.0,
+        100.0
+      ]
+    ]
+  },
+  "M5 minimax regret (Ch 3)": {
+    "regrets": {
+      "S1 big bet now": [
+        0,
+        4,
+        14
+      ],
+      "S2 institutions and flexible access": [
+        6,
+        0,
+        1
+      ],
+      "S3 wait": [
+        18,
+        5,
+        0
+      ],
+      "S4 staged: institutions now, prepared option to scale": [
+        3,
+        0,
+        2
+      ]
+    },
+    "max_regret": {
+      "S1 big bet now": 14,
+      "S2 institutions and flexible access": 6,
+      "S3 wait": 18,
+      "S4 staged: institutions now, prepared option to scale": 3
+    },
+    "minimax_choice": "S4 staged: institutions now, prepared option to scale",
+    "expected_p_.5_.3_.2": {
+      "S1 big bet now": 7.9,
+      "S2 institutions and flexible access": 7.1,
+      "S3 wait": 14.4,
+      "S4 staged: institutions now, prepared option to scale": 5.8
+    },
+    "expected_p_.8_.15_.05": {
+      "S1 big bet now": 5.35,
+      "S2 institutions and flexible access": 8.9,
+      "S3 wait": 19.2,
+      "S4 staged: institutions now, prepared option to scale": 6.55
+    },
+    "p_fast_threshold_S1_over_S4": 0.727272727273,
+    "timely_unprepared": false,
+    "timely_prepared": true
+  },
+  "M6 heatwave (Ch 24)": {
+    "campus": {
+      "option_b_relief": 1400.0,
+      "option_b_gap": 50.0,
+      "hybrid_campus_load": 750,
+      "hybrid_campus_reduction_pct": 62.5,
+      "hybrid_total": 1450,
+      "hybrid_energy_mwh": 5800
+    },
+    "schedule": {
+      "totals_mw": {
+        "19-20": 1450,
+        "20-21": 1450,
+        "21-22": 1450,
+        "22-23": 1450
+      },
+      "energy_mwh": {
+        "campus": 5000,
+        "cooling": 320,
+        "industry": 200,
+        "water": 80,
+        "residential": 200
+      },
+      "total_mwh": 5800,
+      "unstaggered_total_mwh": 5760
+    },
+    "options": [
+      {
+        "action": "A: residential rotation only (2-h blocks)",
+        "relief_mw": 1450,
+        "energy_mwh": 5800,
+        "feasible": true,
+        "shortfall_left_mw": 0,
+        "essential_mw": 150,
+        "essential_floor_met": true,
+        "registered_protected": true,
+        "people_off_at_once": 3452381,
+        "people_rotated": 6904762,
+        "person_hours_off": 13809524,
+        "high_risk_off_at_once": 207143,
+        "high_risk_person_hours": 828571,
+        "cooling_floor_met": false,
+        "water_people_4h": 0,
+        "all_floors_met": false
+      },
+      {
+        "action": "B: campus cut 70% across the board",
+        "relief_mw": 1400,
+        "energy_mwh": 5600,
+        "feasible": false,
+        "shortfall_left_mw": 50,
+        "essential_mw": 45,
+        "essential_floor_met": false,
+        "registered_protected": true,
+        "people_off_at_once": 0,
+        "people_rotated": 0,
+        "person_hours_off": 0,
+        "high_risk_off_at_once": 0,
+        "high_risk_person_hours": 0,
+        "cooling_floor_met": true,
+        "water_people_4h": 0,
+        "all_floors_met": false
+      },
+      {
+        "action": "B + 50 MW residential",
+        "relief_mw": 1450,
+        "energy_mwh": 5800,
+        "feasible": true,
+        "shortfall_left_mw": 0,
+        "essential_mw": 45,
+        "essential_floor_met": false,
+        "registered_protected": true,
+        "people_off_at_once": 119048,
+        "people_rotated": 476190,
+        "person_hours_off": 476190,
+        "high_risk_off_at_once": 7143,
+        "high_risk_person_hours": 28571,
+        "cooling_floor_met": true,
+        "water_people_4h": 0,
+        "all_floors_met": false
+      },
+      {
+        "action": "H: hybrid (protect 150, curtail 1,250, flex 150, residential 50)",
+        "relief_mw": 1450,
+        "energy_mwh": 5800,
+        "feasible": true,
+        "shortfall_left_mw": 0,
+        "essential_mw": 150,
+        "essential_floor_met": true,
+        "registered_protected": true,
+        "people_off_at_once": 119048,
+        "people_rotated": 476190,
+        "person_hours_off": 476190,
+        "high_risk_off_at_once": 7143,
+        "high_risk_person_hours": 28571,
+        "cooling_floor_met": true,
+        "water_people_4h": 0,
+        "all_floors_met": true
+      },
+      {
+        "action": "H-water: hybrid, 50 MW extra water deferral instead of residential",
+        "relief_mw": 1450,
+        "energy_mwh": 5800,
+        "feasible": true,
+        "shortfall_left_mw": 0,
+        "essential_mw": 150,
+        "essential_floor_met": true,
+        "registered_protected": true,
+        "people_off_at_once": 0,
+        "people_rotated": 0,
+        "person_hours_off": 0,
+        "high_risk_off_at_once": 0,
+        "high_risk_person_hours": 0,
+        "cooling_floor_met": true,
+        "water_people_4h": 1000000,
+        "all_floors_met": true
+      }
+    ],
+    "sensitivity": [
+      {
+        "action": "S1: migration delivers 950 not 1,250; +110 water, +190 residential",
+        "relief_mw": 1450,
+        "energy_mwh": 5800,
+        "feasible": true,
+        "shortfall_left_mw": 0,
+        "essential_mw": 150,
+        "essential_floor_met": true,
+        "registered_protected": true,
+        "people_off_at_once": 571429,
+        "people_rotated": 2285714,
+        "person_hours_off": 2285714,
+        "high_risk_off_at_once": 34286,
+        "high_risk_person_hours": 137143,
+        "cooling_floor_met": false,
+        "water_people_4h": 2200000,
+        "all_floors_met": false
+      },
+      {
+        "action": "S2: a 30 MW block cannot be isolated from a dialysis feeder; replaced by water deferral",
+        "relief_mw": 1450,
+        "energy_mwh": 5800,
+        "feasible": true,
+        "shortfall_left_mw": 0,
+        "essential_mw": 150,
+        "essential_floor_met": true,
+        "registered_protected": true,
+        "people_off_at_once": 47619,
+        "people_rotated": 190476,
+        "person_hours_off": 190476,
+        "high_risk_off_at_once": 2857,
+        "high_risk_person_hours": 11429,
+        "cooling_floor_met": true,
+        "water_people_4h": 600000,
+        "all_floors_met": true
+      },
+      {
+        "action": "S3: only 14 reachable cooling centres (5,600 places); hybrid as planned",
+        "relief_mw": 1450,
+        "energy_mwh": 5800,
+        "feasible": true,
+        "shortfall_left_mw": 0,
+        "essential_mw": 150,
+        "essential_floor_met": true,
+        "registered_protected": true,
+        "people_off_at_once": 119048,
+        "people_rotated": 476190,
+        "person_hours_off": 476190,
+        "high_risk_off_at_once": 7143,
+        "high_risk_person_hours": 28571,
+        "cooling_floor_met": false,
+        "water_people_4h": 0,
+        "all_floors_met": false
+      },
+      {
+        "action": "S3 switch: replace residential 50 MW by water deferral",
+        "relief_mw": 1450,
+        "energy_mwh": 5800,
+        "feasible": true,
+        "shortfall_left_mw": 0,
+        "essential_mw": 150,
+        "essential_floor_met": true,
+        "registered_protected": true,
+        "people_off_at_once": 0,
+        "people_rotated": 0,
+        "person_hours_off": 0,
+        "high_risk_off_at_once": 0,
+        "high_risk_person_hours": 0,
+        "cooling_floor_met": true,
+        "water_people_4h": 1000000,
+        "all_floors_met": true
+      }
+    ]
+  },
+  "Case ledger: hospital (Ch 20)": {
+    "pilot_reduction": 0.229166666667,
+    "comparison_reduction": 0.0315789473684,
+    "attributable_reduction": 0.197587719298,
+    "error_rate": 0.00740740740741,
+    "override_rate": 0.0499025341131,
+    "agent_errors_total": 105,
+    "agent_proposal_error_rate": 0.0204678362573,
+    "readmission_diff_ci95": [
+      -0.0109,
+      0.0069
+    ],
+    "interpreter_reduction": 0.0982142857143,
+    "interpreter_share": 0.109935897436,
+    "post_restart_error_rate": 0.00299065420561,
+    "detection_to_containment_min": 45,
+    "first_duplicate_to_containment": "2 h 40 min"
+  },
+  "Other worked numbers (Ch 2, 4, 5, 7-12, 14-19, 21)": {
+    "ch02_A": 0.708,
+    "ch02_A_threshold": 0.416666666667,
+    "ch02_B": 1.2,
+    "ch04_base": {
+      "physical": 1.61,
+      "algorithmic": 2.82842712475,
+      "effective": 4.55376767084
+    },
+    "ch04_no_power_growth": {
+      "physical": 1.4,
+      "algorithmic": 2.82842712475,
+      "effective": 3.95979797464
+    },
+    "ch04_slow_algorithms": {
+      "physical": 1.61,
+      "algorithmic": 1.68179283051,
+      "effective": 2.70768645712
+    },
+    "ch05_autonomy": 10.9,
+    "ch05_supervised": 237.0,
+    "ch05_break_even_error": 0.11805,
+    "ch07_delay_lives": 28.0,
+    "ch07_delay_lives_half_effect": 14.0,
+    "ch08_rebound_e1.5": 1.41421356237,
+    "ch08_rebound_e0.7": 0.812252396356,
+    "ch10_z": 4.72095223756,
+    "ch10_rule_of_three_21400": 0.000140186915888,
+    "ch11_A": 30,
+    "ch11_A_more_compute": 30,
+    "ch11_A_more_institutions": 40,
+    "ch14_before": 0.316,
+    "ch14_after": 0.8488,
+    "ch15_a0.6_k10": 2.17391304348,
+    "ch15_a0.6_kinf": 2.5,
+    "ch15_a0.9_k10": 5.26315789474,
+    "ch15_bottleneck_share": 0.869565217391,
+    "ch16": [
+      {
+        "narrow tool specialist": [
+          2,
+          5,
+          6
+        ],
+        "domain + evaluation": [
+          0,
+          2,
+          3
+        ],
+        "anchored accountable role": [
+          3,
+          1,
+          0
+        ],
+        "domain + evaluation + anchored": [
+          1,
+          0,
+          1
+        ]
+      },
+      "domain + evaluation + anchored"
+    ],
+    "ch17_before": 0.191333333333,
+    "ch17_after": 0.97,
+    "ch19": {
+      "capacity": 192.0,
+      "demand_all_full": 600,
+      "demand_tiered": 141.0
+    },
+    "ch21_before": false,
+    "ch21_after": true
+  }
+}

@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the book."
+title: "The Superintelligence Race: companion code"
+version: "1.3.0"
+date-released: 2026-10-28
+authors:
+  - family-names: Ray
+    given-names: Sri Amit
+repository-code: "https://github.com/compassionate-ai-lab/superintelligence-race"
+url: "https://amitray.com/compassionate-ai-lab/"
+license: MIT
+keywords:
+  - artificial general intelligence
+  - superintelligence
+  - AI strategy
+  - AI governance
+  - AI policy
+  - compassionate AI
+preferred-citation:
+  type: book
+  title: "The Superintelligence Race: AGI, Global Power and Strategies for the Future"
+  authors:
+    - family-names: Ray
+      given-names: Sri Amit
+  publisher:
+    name: "Compassionate AI Lab"
+  year: 2026
+  edition: "First edition"
+  isbn: "978-81-69641-37-1"

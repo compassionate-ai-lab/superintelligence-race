@@ -1,0 +1,15 @@
+test_hospital_ledger (test_models.TestBook.test_hospital_ledger) ... ok
+test_m1 (test_models.TestBook.test_m1) ... ok
+test_m2_units_and_limits (test_models.TestBook.test_m2_units_and_limits) ... ok
+test_m3 (test_models.TestBook.test_m3) ... ok
+test_m4 (test_models.TestBook.test_m4) ... ok
+test_m4_continuous (test_models.TestBook.test_m4_continuous) ... ok
+test_m5 (test_models.TestBook.test_m5) ... ok
+test_m5_expected_exact (test_models.TestBook.test_m5_expected_exact) ... ok
+test_m6_heatwave (test_models.TestBook.test_m6_heatwave) ... ok
+test_review_corrections (test_models.TestBook.test_review_corrections) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests
+
+OK
