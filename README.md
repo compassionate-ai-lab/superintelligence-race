@@ -1,4 +1,4 @@
-# The Superintelligence Race: companion code
+# The Superintelligence Race, AGI, Global Power and Strategies: companion code
 
 <img src="images/the-superintelligence-race-cover.jpg" alt="Cover of The Superintelligence Race: AGI, Global Power and Strategies for the Future by Dr. Sri Amit Ray" width="240" align="right">
 
