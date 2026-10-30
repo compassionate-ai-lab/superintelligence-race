@@ -142,7 +142,7 @@ Articles by Dr. Sri Amit Ray that develop the compassionate-AI, ethics and gover
 ## Cite as
 
 **Book (MLA):**
-Ray, Sri Amit. *The Superintelligence Race: AGI, Global Power and Strategies for the Future*. Compassionate AI Lab, 2026. ISBN 978-81-69641-37-1.
+Ray, Sri Amit. *The Superintelligence Race: AGI, Global Power and Strategies for the Future*. Compassionate AI Lab, 2026. ISBN 978-81-69641-38-8.
 
 **Book (APA):**
 Ray, S. A. (2026). *The superintelligence race: AGI, global power and strategies for the future*. Compassionate AI Lab.
@@ -158,7 +158,7 @@ Ray, S. A. (2026). *The Superintelligence Race: companion code* (Version 1.3.0) 
   title     = {The Superintelligence Race: AGI, Global Power and Strategies for the Future},
   publisher = {Compassionate AI Lab},
   year      = {2026},
-  isbn      = {978-81-69641-37-1},
+  isbn      = {978-81-69641-38-8},
   url       = {https://github.com/compassionate-ai-lab/superintelligence-race}
 }
 ```
