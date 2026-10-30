@@ -2,7 +2,7 @@
 
 <img src="images/the-superintelligence-race-cover.jpg" alt="Cover of The Superintelligence Race: AGI, Global Power and Strategies for the Future by Dr. Sri Amit Ray" width="240" align="right">
 
-Companion programs, notebook and workbooks for the book **The Superintelligence Race: AGI, Global Power and Strategies for the Future** by Dr. Sri Amit Ray ([Compassionate AI Lab](https://amitray.com/compassionate-ai-lab/), First Edition, 2026; ISBN 978-81-69641-37-1).
+Companion programs, notebook and workbooks for the book **The Superintelligence Race: AGI, Global Power and Strategies for the Future** by Dr. Sri Amit Ray ([Compassionate AI Lab](https://amitray.com/compassionate-ai-lab/), First Edition, 2026; ISBN 978-81-69641-38-8).
 
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/compassionate-ai-lab/superintelligence-race/blob/main/notebooks/AGI_Companion_Colab.ipynb)
 
